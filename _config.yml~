@@ -4,7 +4,7 @@ email: diana.olsen@colorado.edu
 description: > # this means to ignore newlines until "baseurl:"
   This is the 4th Presetation for CSCI 5828 Fall 2015: An Introduction to Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://dSouthard.github.io" # http://locahost:4000
+url: "http://dsouthard.github.io/JekyllIntro/" # http://locahost:4000
 production_url : http://dSouthard.github.io
 BASE_PATH : false
 github_username:  dSouthard
