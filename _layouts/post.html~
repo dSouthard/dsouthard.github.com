@@ -14,9 +14,13 @@ layout: default
     
     <footer>
         {% if page.previous %}
-        <a href="{{ page.previous.url }}" class="post-prev">&larr; Previous topic</a> {% endif %}
+        <a href="{{ page.previous.url }}" class="post-next"> Next topic &rarr;</a> {% endif %}
         {% if page.next %}
-        <a href="{{ page.next.url }}" class="post-next">Next post &rarr;</a> {% endif %}
+        <a href="{{ page.next.url }}" class="post-previous">&larr; Previous topic </a> {% endif %}
+         <section class="special">
+                    <ul class="buttons">
+                        <li><a href="/blog.html" class="button special">Topic Index</a></li>
+                    </ul></section>
     </footer>
 </article>
 

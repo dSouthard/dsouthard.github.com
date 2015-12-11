@@ -6,16 +6,16 @@
 						<li class="submenu">
 							<a href="/blog.html">Topics</a>
 							<ul>
-								<li><a href="/left-sidebar.html">Brief History of Jekyll</a></li>
-								<li><a href="/right-sidebar.html">Setup Instructions</a></li>
-								<li><a href="/no-sidebar.html">Quick Start</a></li>						
-								<li><a href="/no-sidebar.html">Updating Content</a></li>			
-								<li><a href="/no-sidebar.html">Publishing to Github</a></li>			
-								<li><a href="/no-sidebar.html">Miscellaneous</a></li>			
-								<li><a href="/no-sidebar.html">My Conclusion</a></li>			
+								<li><a href="/2015/12/07/brief-history-of-jekyll.html">Brief History of Jekyll</a></li>
+								<li><a href="/2015/12/06/setup-instructions.html">Setup Instructions</a></li>
+								<li><a href="/2015/12/05/quick-start-instructions.html">Quick Start</a></li>						
+								<li><a href="/2015/12/04/updating-content.html">Updating Content</a></li>			
+								<li><a href="/2015/12/03/publishing-to-github.html">Publishing to Github</a></li>			
+								<li><a href="/2015/12/02/miscellaneous-information.html">Miscellaneous</a></li>			
+								<li><a href="/2015/12/01/my-conclusion.html">My Conclusion</a></li>			
 							</ul>
 						</li>
-						<li><a href="/contact.html">Sources</a></li>
+						<li><a href="/sources.html">Sources</a></li>
 						<li><a href="/contact.html" class="button special">Contact Me</a></li>
 					</ul>
 				</nav>
