@@ -16,7 +16,7 @@ layout: default
         {% if page.previous %}
         <a href="{{ page.previous.url }}" class="post-prev">&larr; Previous topic</a> {% endif %}
         {% if page.next %}
-        <a href="{{ page.next.url }}" class="post-next">Next topic &rarr;</a> {% endif %}
+        <a href="{{ page.next.url }}" class="post-next">Next post &rarr;</a> {% endif %}
     </footer>
 </article>
 
