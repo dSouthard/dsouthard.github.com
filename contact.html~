@@ -35,6 +35,7 @@
 				<nav id="nav">
 					<ul>
 						<li class="current"><a href="index.html">Landing Page</a></li>
+						<li class="current"><a href="index.html">Jekyll Pages</a></li>
 						
 					</ul>
 				</nav>
