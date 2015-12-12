@@ -4,5 +4,15 @@ title:  "Setup Instructions"
 date:   2015-12-06 14:36:23
 ---
 
-<span class="image featured"><img src="/images/pic03.jpg" alt=""></span>
-Setup instructions
+<span class="image featured"><img src="/images/setup.png" alt=""></span>
+
+Initial Setup
+====================
+
+The following requirements are necessary before you can set up your first Jekyll website:
+
+```
+sudo apt-get update
+sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
+```
+

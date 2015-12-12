@@ -20,6 +20,7 @@ layout: default
          <section class="special">
                     <ul class="buttons">
                         <li><a href="/blog.html" class="button special">Topic Index</a></li>
+                        <li><a href="#" class="button">Return Home</a></li>
                     </ul></section>
     </footer>
 </article>

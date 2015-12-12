@@ -4,4 +4,37 @@ title:  "Brief History of Jekyll"
 date:   2015-12-07 12:00:00
 ---
 <span class="image featured"><img src="/images/jekyll-logo.png" alt=""></span>
-This is the history
+
+Creation
+====================
+
+Jekyll was written in Ruby by Tom Preston-Werner, who also co-founded GitHub. It was first released in 2008 and was/still is distributed under an open source license.
+
+According to Jekyll's "README" file,
+
+> It does what you tell it to do no more, no less. It doesn't try to outsmart users 
+> by making bold assumptions, nor does it burden them with needless complexity and 
+> configuration. Put simply, Jekyll gets out of your way and allows you to 
+> concentrate on what truly matters: your content.
+
+Basically put, Jekyll is a parsing engine bundled as a ruby gem used to build static websites from dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as "a simple, blog aware, static site generator".
+
+### Important to Note!
+Jekyll is **NOT** some sort of blogging software! It, by itself, does not come with any template designs or content. Jekyll is a **parsing engine**: you configure your files the way you want them, and then Jekyll pulls out your content, formats them the way you have set them up to be formatted, and generates the final static files.
+
+Main Features
+---------------------
+
+Jekyll has the following features:
+
+		*Ability to write content in markdown or textile in your favorite text-editor.	
+		*Ability to write and preview your content via localhost.
+		*No internet connection required.
+		*Ability to publish via git.
+		*Ability to host your blog on a static web-server.
+		*Ability to host freely on GitHub Pages.
+		*No database required.
+		*Lossless translation between C
+		*Checked stack pointers
+
+
