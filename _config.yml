@@ -10,5 +10,4 @@ BASE_PATH : false
 github_username:  dSouthard
 
 # Build settings
-markdown: kramdown:
-	input: GFM
+markdown: kramdown

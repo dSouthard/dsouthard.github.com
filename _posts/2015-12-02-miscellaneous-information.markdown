@@ -26,4 +26,4 @@ Some listed features are: <br>
 <br>
 The main advantage of using a bootstrap is that the website it creates is much less bare-boned than using the quick-setup method described in this presentation.
 
-I only came across bootstraps after I had started working on this presentation and haven't had any experience with using them, but in the future that would probably be the way I would go.
+I only came across bootstraps after I had started working on this presentation and haven't had any experience with using them, but in the future that would probably be the way I would go. I did still the slogan "3 minutes or less" from one of the bootstrap websites, since I found that I could get site running in that time.

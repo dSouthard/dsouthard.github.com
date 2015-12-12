@@ -17,13 +17,13 @@ Bootstrapping
 
 Another way of quickly creating a Jekyll website is by using a <a href = "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=jekyll+bootstrap"> Jekyll bootstrap.</a> This creates a 100%-Github-compatible site with many customizable features, depending on whose bootstrap you use.
 
-Some listed features are: 
-\* Automatic syntax highlight
-\* Multi-page
-\* Automatic menu
-\* Configurable additional links
-\* Github counters
-
+Some listed features are: <br>
+\* Automatic syntax highlight<br>
+\* Multi-page<br>
+\* Automatic menu<br>
+\* Configurable additional links<br>
+\* Github counters<br>
+<br>
 The main advantage of using a bootstrap is that the website it creates is much less bare-boned than using the quick-setup method described in this presentation.
 
-I only came across bootstraps after I had started working on this presentation and haven't had any experience with using them, but in the future that would probably be the way I would go.
+I only came across bootstraps after I had started working on this presentation and haven't had any experience with using them, but in the future that would probably be the way I would go. I did still the slogan "3 minutes or less" from one of the bootstrap websites, since I found that I could get 
