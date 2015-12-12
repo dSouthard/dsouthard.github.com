@@ -3,5 +3,80 @@ layout: post
 title:  "Quick Start Instructions"
 date:   2015-12-05 14:36:23
 ---
-<span class="image featured"><img src="/images/pic01.jpg" alt=""></span>
-quick start
+<span class="image featured"><img src="/images/pic03.jpg" alt=""></span>
+
+3 Minutes or Less!
+---------------------
+Here are the instructions to get the very basic Jekyll website up and running. First, navigate to the directory you wish to create your site's folders in. Then:
+<p>
+    >> jekyll new myNewSite<br>
+    >> cd myNewSite <br>
+    ~/myNewSite >> jekyll serve<br>
+</p>
+This method create a new directory in which your website files will be saved. If you want to create the site's files directly in the location you're currently at, you simply try:
+<p>
+    >> jekyll new .</br>
+</p>
+At this point, you can now open your web browswer and navitage to <strong><a href = "http://localhost:4000"> `http://localhost:4000`</a></strong> where you should see the following:
+
+<span class="image featured"><img src="/images/newSite.png" alt=""></span>
+
+Looking into the folder directory of myNewSite, you should see the following directories that Jekyll has automatically created for you:
+
+<span class="image featured"><img src="/images/fileConfig.png" alt=""></span>
+
+This is the very bare-bones beginning of a site. **Everything** (almost) needs to be configured for your own personal tastes/content, but the skeleton is there!
+
+#### Note:
+When using <strong>`jekyll serve`</strong>, the system's default behavir is to automatically watch for changes being saved to your folder's files. If you want to change that behavior, use instead <strong>`jekyll serve --no-watch`</strong>
+
+Basic File Structure
+=====================
+
+A basic Jekyll site usually looks something like this:
+
+.<br>
+├── _config.yml<br>
+├── _drafts<br>
+├── _includes<br>
+|   ├── footer.html<br>
+|   └── header.html<br>
+├── _layouts<br>
+|   ├── default.html<br>
+|   └── post.html<br>
+├── _posts<br>
+├── _data<br>
+|   └── members.yml<br>
+├── _site<br>
+├── .jekyll-metadata<br>
+└── index.html<br>
+
+#### Directory Overview
+
+* _config.yml: Stores configuration data.
+* _drafts: unpublished posts
+* _includes: partials that can be mixed and matched by layouts/posts to facilitate reuse
+* _layouts: templates for posts and pages
+* _posts: the <strong>dynamic content</strong> of the site
+* _data: well-formatted data should be placed here to be autoloaded by the Jekyll engine.
+* _site: this is there the generated site will be placed once Jekyll is done parsing your content.
+* .jekyll-metadata: this helps Jekyll keep track of which files have not been modified since the site was last built, and which files will need to be regenerated on the next build.
+* index.html and other HTML/Markdown/Textile files: will be transformed by Jekyll (provided the file has a YAML Front Matter section).
+* Other Files/Folders: will be copied verbatim to the generated site
+
+Customization
+---------------------
+
+From the barebones site you've just created, there are already instructions on how to go about updating the just-created content with your own data. Luckily, the default <strong>_config.yml</strong> file provides detailed instructions on some of the most useful configurations you should incoropotate.
+
+<span class="image featured"><img src="/images/configDefault.png" alt=""></span>
+
+The <strong>_config.yml</strong> file is Jekyll's way of providing a default for many configuration options you may want to impose on all of your site's pages. Instead of having to repeat a particular configuration (such as your username or email address), you can include it in the <strong>_config.yml</strong> file for a site-wide default.
+
+You can then tweak your site's layout in the _layouts folder, using regular HTML expressions or the site's styles in the css folder. Or you can utilize one of the many <a href = "http://jekyllthemes.org/"> free Jekyll themes</a> that have been created and shared on the internet.
+
+Posts
+---------------------
+
+Jekyll is described as being "blog aware." This means that blogging is baked into Jekyll’s functionality. 
+

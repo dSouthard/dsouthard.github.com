@@ -15,6 +15,8 @@ The latest version of Jekyll is 3.0.1, released 11/17/2015. This is the version 
 * RubyGems
 * Linux, Unix, or Mac OS X (I'll be assuming you're on Ubuntu 14.04)
 
+All in all, you can be setup in less than 30 minutes, provided nothing goes wrong!
+
 #### Note:
 
 You can either switch to your sudo account or add the sudo keyword in front of the following terminal commands.
@@ -51,10 +53,13 @@ There are several different methods of then installing Ruby, but the recommeded 
 
     >> rbenv install 2.2.3<br>
     >> rbenv global 2.2.3<br>
-    >> ruby -v<br>
 </p>
 
-At this point, you should have Ruby running on your machine!
+At this point, you should have Ruby running on your machine! Just to check, try:
+<p>
+    >> ruby -v
+</p>
+You should get `ruby 2.2.3p173`. If not, you will need to try the setup again, perhaps with <a href = "https://gorails.com/setup/ubuntu/14.04#ruby-rvm">another method.</a>
 
 
 Installing Jekyll with RubyGems
